@@ -1,0 +1,104 @@
+/*
+* @name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @class: Software Development Diploma
+* @author: Jamie Braaksma
+*/
+
+.memberInputDiv, .membersDiv, .placesDiv, .inputHeader, .teamHeader, .titleDiv, .userInfo, .yourInfoDiv, #allBookingsHeader
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memberInputDiv, .inputHeader, .titleDiv, .userInfo
+{
+  height:10vh;
+}
+
+.teamHeader
+{
+  align-items: flex-start;
+}
+
+.inputHeader
+{
+  font-size:5em;
+}
+
+#placesHeader
+{
+  font-size: 3em;
+  margin: 2vh 0;
+}
+
+.placesDiv, .membersDiv, .titleDiv, .userInfo
+{
+  flex-direction: column;
+}
+
+.membersDiv
+{
+  flex-wrap: wrap;
+}
+
+.searchDiv
+{
+  width: 60vw;
+  margin: 0 0 2vh 0;
+}
+
+.searchDiv input
+{
+  margin: 0;
+  width: 60vw;
+}
+
+input, select
+{
+  width:15vw;
+}
+
+ul
+{
+  list-style-image: url("accountIcon.png");
+}
+
+.userInfo h2, .userInfo p, .userInfo h3
+{
+  padding: 1vh;
+}
+
+.userNameDiv, .bookingCountDiv
+{
+  display: flex;
+  align-self: flex-start;
+}
+
+.yourInfoDiv
+{
+  flex-direction: column;
+  height: 50vh;
+}
+
+.currentBookingsDiv
+{
+  margin: 10vh;
+}
+
+#allBookingsHeader
+{
+  font-size: 50px;
+}
+
+.tableBtn
+{
+  background-color: #faf3e0;
+  border: none;
+}
+
+#editMeetingBtn, button[id^="removeMemberBtn"]
+{
+  margin: 10px;
+}

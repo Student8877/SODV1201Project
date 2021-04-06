@@ -1,0 +1,60 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Rental</title>
+  <link rel="stylesheet" href="../master.css">
+  <link rel="stylesheet" href="rentals.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Work Space</h1>
+  <div class="headerDiv">
+
+    <div class="navBarDiv">
+      <a href="addRental.html">Add Rental</a>
+      <a href="rentalHome.html">Account</a>
+      <a href="currentRentals.html">Current Rentals</a>
+      <a id="logout" href="../index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="containerDiv">
+    <h1 class="inputHeader">Add a New Rental</h1>
+
+    <div class="infoDiv">
+      <label for="amenitites">Amenities</label>
+      <input id="amenity" type="text" placeholder="Printers, Kitchen etc." name="amenities" value="">
+      <button id="amenityBtn" class="myButton" type="button" name="amenities">Add</button>
+
+      <input id="nameRental" type="text" placeholder="Name of rental" name="Name" value="">
+      <input id="locationRental" type="text" placeholder="Address" name="Address" value="">
+      <button id="newRentalBtn" class="myButton" type="button" name="">Add Rental</button>
+    </div>
+
+    <h2 class="amenityHeader">Amenities</h2>
+
+    <div class="amenitiesListDiv">
+      <ul id="amenitiesList"></ul>
+    </div>
+  </div>
+
+  <div class="footerDiv">
+    <h2>Current Date</h2>
+
+    <div id="date"></div>
+
+    <p id="copyright">&#169;Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="../master.js" charset="utf-8"></script>
+</body>
+</html>

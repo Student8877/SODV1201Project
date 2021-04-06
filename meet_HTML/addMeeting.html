@@ -1,0 +1,83 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Meeting</title>
+  <link rel="stylesheet" href="../master.css">
+  <link rel="stylesheet" href="meet.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Work Space</h1>
+
+  <div class="headerDiv">
+    <div class="navBarDiv">
+      <a href="addMeeting.html">Add Meeting</a>
+      <a href="meetHome.html">Account</a>
+      <a href="currentMeetings.html">Current Schedule</a>
+      <a id="logout" href="../index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="containerDiv">
+
+    <div class="bookingDiv">
+      <h1 class="inputHeader">Book a Meeting</h1>
+
+      <div class="memberInputDiv">
+        <input id="memberInput" type="text" placeholder="Add Team Member" name="" value="">
+        <button id="memberBtn" class="myButton" type="button" name="addMember">Add</button>
+
+        <input id="meetingName" type="text" placeholder="Name of Meeting" name="" value="">
+        <input id="dateInput" type="date" name="" value="">
+        <select id="placeSelector" class="placesSelect" name=""></select>
+        <button id="bookMeetingBtn" class="myButton" type="button" name="button">Book</button>
+      </div>
+
+      <h1 class="teamHeader">Team Members</h1>
+
+      <div class="membersDiv">
+        <ul id="memberList"></ul>
+      </div>
+
+      <div class="placesDiv">
+        <h1 id="placesHeader">Available Rentals</h1>
+
+        <div class="searchDiv">
+          <input id="searchInput" type="text" placeholder="Search" name="" value="">
+        </div>
+
+        <table id="PlacesTable">
+          <thead>
+            <tr>
+              <th id="rentNameSort">Rental Name</th>
+              <th id="addrSort">Address</th>
+              <th>Amenitites</th>
+            </tr>
+          </thead>
+          <tbody id="rentalsBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footerDiv">
+    <h2>Current Date</h2>
+
+    <div id="date"></div>
+
+    <p id="copyright">&#169;Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="../master.js" charset="utf-8"></script>
+</body>
+</html>

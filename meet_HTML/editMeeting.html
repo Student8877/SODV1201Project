@@ -1,0 +1,61 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Edit Meeting</title>
+  <link rel="stylesheet" href="../master.css">
+  <link rel="stylesheet" href="meet.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Work Space</h1>
+  <div class="headerDiv">
+
+    <div class="navBarDiv">
+      <a href="addMeeting.html">Add Meeting</a>
+      <a href="meetHome.html">Account</a>
+      <a href="currentMeetings.html">Current Schedule</a>
+      <a id="logout" href="../index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="containerDiv">
+    <div class="memberInputDiv">
+      <input id="memberInput" type="text" placeholder="Add Team Member" name="" value="">
+      <button id="memberBtn" class="myButton" type="button" name="addMember">Add</button>
+
+      <input id="editMeetingName" type="text" placeholder="Name of Meeting" name="" value="">
+      <input id="editDateInput" type="date" name="" value="">
+      <h2 id="placeName"></h2>
+      <button id="editMeetingBtn" class="myButton" type="button" name="button">Update</button>
+    </div>
+
+    <div class="membersDiv">
+
+      <div class="membersHead">
+        <h1>Team Members</h1>
+      </div>
+      <ul id="memberList">
+      </ul>
+    </div>
+  </div>
+
+  <div class="footerDiv">
+    <div>Current Date</div>
+
+    <h3 id="date"></h3>
+
+    <p id="copyright">Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="../master.js" charset="utf-8"></script>
+</body>
+</html>

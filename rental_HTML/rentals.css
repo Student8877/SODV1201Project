@@ -1,0 +1,71 @@
+/*
+* @name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @class: Software Development Diploma
+* @author: Jamie Braaksma
+*/
+
+.yourInfoDiv, #allRentalsHeader, #rentalsHeader, .amenitiesListDiv, .infoDiv
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yourInfoDiv
+{
+  flex-direction: column;
+  height: 50vh;
+}
+
+.infoDiv
+{
+  height: 10vh;
+}
+
+.yourInfoDiv h2, .yourInfoDiv p, .yourInfoDiv h3
+{
+  padding: 1vh;
+}
+
+.userNameDiv, .rentalCountDiv
+{
+  display: flex;
+  align-self: flex-start;
+}
+
+#allRentalsHeader, #rentalsHeader
+{
+  font-size: 50px;
+}
+
+.tableBtn
+{
+  background-color: #faf3e0;
+  border: none;
+}
+
+.allRentalsDiv, .currentRentalsDiv
+{
+  margin: 10vh;
+}
+
+.inputHeader
+{
+  font-size:5em;
+}
+
+.amenityHeader
+{
+    font-size: 3em;
+}
+
+input
+{
+  width:15vw;
+}
+
+#editRentalBtn, button[id^="removeAmenityBtn"]
+{
+  margin: 10px;
+}

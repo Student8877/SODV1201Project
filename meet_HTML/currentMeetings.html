@@ -1,0 +1,59 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Schedule</title>
+  <link rel="stylesheet" href="../master.css">
+  <link rel="stylesheet" href="meet.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Work Space</h1>
+  <div class="headerDiv">
+
+    <div class="navBarDiv">
+      <a href="addMeeting.html">Add Meeting</a>
+      <a href="meetHome.html">Account</a>
+      <a href="currentMeetings.html">Current Schedule</a>
+      <a id="logout" href="../index.html">Logout</a>
+    </div>
+  </div>
+
+  <div class="containerDiv">
+
+    <div class="currentBookingsDiv">
+      <table id="allBookingsTable">
+        <h1 id="allBookingsHeader">All Scheduled Meetings</h1>
+        <thead>
+          <tr>
+            <th id="meetingSort">Meeting Name</th>
+            <th>Members</th>
+            <th id="rentalSort">Rental Name</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="allBookingsBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footerDiv">
+    <h2>Current Date</h2>
+
+    <div id="date"></div>
+
+    <p id="&#169;copyright">Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="../master.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/*
+* @name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @class: Software Development Diploma
+* @author: Jamie Braaksma
+*/
+
+.signInDiv, .noAccountLink, .signUpDiv, .signUpHeader, .signInInstead
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signInDiv
+{
+  height:67vh;
+  width:45vw;
+  background-color: #918F8E;
+  justify-content: space-around;
+}
+
+.signInDiv h2
+{
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+.noAccountLink h2
+{
+  font-size: 1.5em;
+}
+
+.singInInput button
+{
+  margin-left:10px;
+}
+
+.headerDiv
+{
+  width: 100vw;
+  height:20VH;
+  font-size: 3em;
+}
+
+/*SIGN UP*/
+.signUpDiv
+{
+  height:25vh;
+  justify-content: space-around;
+}
+
+.signUpHeader
+{
+  height:25vh;
+}
+
+.radioSignUp
+{
+  margin: 2vh;
+}
+
+#signUpBtn
+{
+  position: relative;
+  left: 20%;
+}

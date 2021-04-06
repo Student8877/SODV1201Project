@@ -1,0 +1,60 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="SignIn_Up.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <div class="containerDiv">
+
+    <div class="signUpHeader">
+      <h1>Find the Perfect Meeting Place Today!</h1>
+    </div>
+
+    <div class="signUpDiv">
+      <h2>Create a Free Account</h2>
+
+      <div class="userInputDiv">
+        <input id="newUsername" type="text" placeholder="Username" name="" value="">
+        <!-- <input type="text" placeholder="E-mail" name="" value=""> -->
+        <!-- <input type="text" placeholder="Password" name="" value=""> -->
+        <!-- <input type="text" placeholder="Re-enter Password" name="" value=""> -->
+        <div class="radioSignUp">
+          <input type="radio" name="type" value="Meet">
+          <label for="Meet">Meet</label>
+          <input type="radio" name="type" value="Provide">
+          <label for="Provide">Provide</label>
+        </div>
+
+        <button id="signUpBtn" class="myButton" type="button" name="button">Sign Up</button>
+      </div>
+
+      <div class="signInInstead">
+        <h2>Already have an account?</h2>
+        <a href="index.html">Click Here To Sign In</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footerDiv">
+    <h2>Current Date</h2>
+
+    <div id="date"></div>
+
+    <p id="&#169;copyright">Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="master.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!--
+* @Name: Course Project Phase 1
+* @Course Code: SODV 1201
+* @Program: Software Development Diploma
+* @Author: Jamie Braaksma
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Current Rentals</title>
+  <link rel="stylesheet" href="../master.css">
+  <link rel="stylesheet" href="rentals.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+  <h1 id="title">Work Space</h1>
+  <div class="headerDiv">
+    <div class="navBarDiv">
+      <a href="addRental.html">Add Rental</a>
+      <a href="rentalHome.html">Account</a>
+      <a href="currentRentals.html">Current Rentals</a>
+      <a id="logout" href="../index.html">Logout</a>
+    </div>
+  </div>
+  <div class="containerDiv">
+
+    <div class="allRentalDiv">
+      <table id="allRentalsTable">
+
+        <h1 id="allRentalsHeader">All Rentals</h1>
+        <thead>
+          <tr>
+            <th id="rentalNameSort">Rental Name</th>
+            <th id="addressSort">Address</th>
+            <th>Amenitites</th>
+          </tr>
+        </thead>
+        <tbody id="allRentalsBody">
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="currentRentalsDiv">
+      <table id="employeeTable">
+
+        <h1 id="rentalsHeader">Bookings</h1>
+        <thead>
+
+          <tr>
+            <th>Meeting Name</th>
+            <th>Participants</th>
+            <th>Rental Name</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="allBookingsBody">
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+  </div>
+  <div class="footerDiv">
+    <h2>Current Date</h2>
+    <div id="date"></div>
+    <p id="copyright">&#169;Copyright Jamie Braaksma Bow Valley College SODV1201</p>
+  </div>
+  <script src="../master.js" charset="utf-8"></script>
+</body>
+</html>
