@@ -301,7 +301,7 @@ function editMeetingFromStorage()
       //Clear the temporary members array
       tempArray.length = 0;
 
-      window.location.href = "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/meet_HTML/currentMeetings.html";
+      window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/meet_HTML/currentMeetings.html";
     })
   }
 }
@@ -356,7 +356,7 @@ function editRentalFromStorage()
       //Clear the temporary members array
       tempArray.length = 0;
 
-      window.location.href = "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/rental_HTML/currentRentals.html";
+      window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/rental_HTML/currentRentals.html";
     })
   }
 
