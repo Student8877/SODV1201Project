@@ -422,7 +422,7 @@ $(document).ready(function()
   }
 
   //If the user logs out and returns to the login, clear the currentUser from session storage
-  if(window.location.href === "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/index.html")
+  if(window.location.href === "https://student8877.github.io/SODV1201Project/index.html")
      window.sessionStorage.clear();
 
   PrintDate();
@@ -453,7 +453,7 @@ $(document).ready(function()
     }
   }
 
-  if(window.location.href === "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/meet_HTML/addMeeting.html")
+  if(window.location.href === "https://student8877.github.io/SODV1201Project/meet_HTML/addMeeting.html");
     populateRentersTable(currentUser, accountType, "rentalsBody", currentRentals, false);
 
   for (var i = 0; i < currentRentals.length; i++)
@@ -678,7 +678,7 @@ $(document).ready(function()
   });
 
 
-  if(window.location.href === "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/rental_HTML/currentRentals.html")
+  if(window.location.href === "https://student8877.github.io/SODV1201Project/rental_HTML/currentRentals.html")
     populateRentersTable(currentUser, accountType, "allRentalsBody", currentRentals, true);
 
   //Sorting function calls
@@ -687,12 +687,12 @@ $(document).ready(function()
 
 
   //Load Rental editing page and populate the input fields with existing values
-  $('[id^="editRentalBtn"]').click(function(){window.location.href = "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/rental_HTML/editRental.html";})
-  if(window.location.href === "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/rental_HTML/editRental.html")
+  $('[id^="editRentalBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/rental_HTML/editRental.html";})
+  if(window.location.href === "https://student8877.github.io/SODV1201Project/rental_HTML/editRental.html")
     editRentalFromStorage();
 
   //Load Meeting editing page and populate the input fields with existing values
-  $('[id^="editMeetingBtn"]').click(function(){window.location.href = "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/meet_HTML/editMeeting.html";})
-  if(window.location.href === "file:///C:/Users/jay_b/OneDrive/Documents/BVC/Term_2/SODV1201/Code/HTML/CourseProject/meet_HTML/editMeeting.html")
+  $('[id^="editMeetingBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/meet_HTML/editMeeting.html";})
+  if(window.location.href === "https://student8877.github.io/SODV1201Project/meet_HTML/editMeeting.html")
     editMeetingFromStorage();
 });
