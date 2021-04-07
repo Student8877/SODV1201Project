@@ -687,12 +687,12 @@ $(document).ready(function()
 
 
   //Load Rental editing page and populate the input fields with existing values
-  $('[id^="editRentalBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/rental_HTML/editRental.html";})
+  $('[id^="editRentalBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/HTML/CourseProject/rental_HTML/editRental.html";})
   if(window.location.href === "https://student8877.github.io/SODV1201Project/rental_HTML/editRental.html")
     editRentalFromStorage();
 
   //Load Meeting editing page and populate the input fields with existing values
-  $('[id^="editMeetingBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/Code/HTML/CourseProject/meet_HTML/editMeeting.html";})
+  $('[id^="editMeetingBtn"]').click(function(){window.location.href = "https://student8877.github.io/SODV1201Project/HTML/CourseProject/meet_HTML/editMeeting.html";})
   if(window.location.href === "https://student8877.github.io/SODV1201Project/meet_HTML/editMeeting.html")
     editMeetingFromStorage();
 });
